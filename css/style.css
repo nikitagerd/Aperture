@@ -100,5 +100,38 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    color: #C0C0C0;
+    color: #C0C0C0;}
+
+.fixed_information li{
+    color: #FFFFFF;
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 16px;
+}
+.fixed_information li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Combined-Shape.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.fixed_information li:nth-child(2):before{
+    background-image: url("../images/Combined-Shape2.svg");
+    width: 16px;
+}
+.fixed_information li:nth-child(3):before{
+    background-image: url("../images/Combined-Shape3.svg");
+    width: 32px;
+}
+.fixed_information li:nth-child(4):before{
+    background-image: url("../images/Fill-1.svg");
+    width: 10px;
+}
+.fixed_information{
+    display: flex;
+    list-style: none;
 }
