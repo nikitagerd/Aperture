@@ -196,12 +196,11 @@ header nav ul li:last-of-type a{
     justify-content: center;
     align-items: flex-end;
 }
-.section_help div{
+.section_help_list{
     max-width: 600px;
     text-align: center;
-
 }
-.section_help div h2{
+.section_help_list h2{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -211,7 +210,7 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     padding-bottom: 15px;
 }
-.section_help div h3{
+.section_help_list h3{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
