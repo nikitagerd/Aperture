@@ -57,7 +57,7 @@ header nav ul li:last-of-type a{
     letter-spacing: 0.4px;
     color: #000000;
 }
-.section1_img{
+.section_main{
     background-image: url("../images/IMAGE.jpg");
     padding-top: 466px;
     box-sizing: border-box;
@@ -69,13 +69,13 @@ header nav ul li:last-of-type a{
     justify-content: center;
     align-items: flex-end;
 }
-.section1_div1 {
+.section_main_list{
     padding-bottom: 60px;
     justify-content: space-between;
     position: absolute;
     width: 600px;
 }
-.section1_p1{
+.section_main_p1{
     font-family: 'poppinsregular';
     margin-bottom: 1px;
     font-style: normal;
@@ -87,7 +87,7 @@ header nav ul li:last-of-type a{
     text-transform: uppercase;
     color: #C0C0C0;
 }
-.section1_h1{
+.section_main_h1{
     font-family: 'poppinsregular';
     margin-bottom: 18px;
     font-style: normal;
@@ -97,7 +97,7 @@ header nav ul li:last-of-type a{
     text-align: center;
     color: #FFFFFF;
 }
-.section1_p2{
+.section_main_p2{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -144,19 +144,18 @@ header nav ul li:last-of-type a{
     bottom: 40px;
     right: 40px;
 }
-.section5{
+.photo_monstera{
     background-image: url("../images/section5.jpg");
     height: 100vh;
     box-sizing: border-box;
     background-size: cover;
-
 }
-.section6{
+.clients{
     background-color: black;
     padding-top: 113px;
     padding-bottom: 140px;
 }
-.section6_h2{
+.clients_h2{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -166,7 +165,7 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     padding-bottom: 15px;
 }
-.section6_h3{
+.clients_h3{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -176,20 +175,20 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     padding-bottom: 40px;
 }
-.section6_div{
+.clients_list{
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.section7{
+.photo_himalayas{
     background-image: url("../images/section7.jpg");
     height: 100vh;
     box-sizing: border-box;
     background-size: cover;
 }
-.section8{
+.section_help{
     background-color: black;
     padding-top: 113px;
     padding-bottom: 108px;
@@ -197,10 +196,12 @@ header nav ul li:last-of-type a{
     justify-content: center;
     align-items: flex-end;
 }
-.section8_div{
+.section_help div{
     max-width: 600px;
+    text-align: center;
+
 }
-.section8_h2{
+.section_help div h2{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -210,42 +211,37 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     padding-bottom: 15px;
 }
-.section8_h3{
+.section_help div h3{
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    text-align: center;
     color: #C0C0C0;
     padding-bottom: 22px;
 }
 .section8_a{
     background-color: #FFFFFF;
-    text-align: center;
-    margin: 50px;
     border-radius: 14px;
-    height: 42px;
-    width: 154px;
-    display: flex;
-    position: relative;
+    max-width: 154px;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px 6px 5px;
     }
 .section8_a:before{
     content: "";
     display: block;
     border-radius: 14px;
     background-color: black;
-    position: absolute;
     width: 32px;
     height: 32px;
-    top: 5px;
-    left: 4px;
+    margin-right: 6px;
 }
-.section8_a:after{
-    content: "";
-    display: block;
-    text-decoration: none;
-    color: red;
-}
-
-
